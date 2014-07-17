@@ -1,0 +1,69 @@
+body {
+	padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+
+#footerwrap h4 p {
+	color: #fff !important;
+}
+
+.circle-image{
+	width:150px;
+	height:150px;
+	border-radius:150px;
+	background-color:#121212;
+	opacity:1;
+	transition: opacity 1s;
+}
+
+.circle-image:hover{
+	opacity:0.6;
+	transition: opacity 1s;
+}
+
+.gap{
+	margin-top:2em;
+}
+
+.grayscale:hover {
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -webkit-filter: grayscale(0%);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+}
+
+.grayscale {
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+}
+
+#myCarousel2 {
+	height:400px !important;
+	} /* Fix for anchor link */
+
+.carousel-control{
+	left:30px;
+	background-image:none;
+	cursor:pointer;
+}
+
+.carousel-control .arrow {
+	font-size:50px;
+}
+
+#alumniheader .span12C {
+	margin-bottom:-20px;
+}
+
+#alumniheader .carousel-inner > .item > img, #alumniheader .carousel-inner > .item > a > img {
+	margin:0 auto;
+}
+
+.collegecram {
+	background-color:#fff;
+	padding: 2em 0;
+}

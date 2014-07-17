@@ -1,0 +1,68 @@
+<!-- Header Image and Logo -->
+<div class="row">
+	<div id="alumniheader">
+		<header class="clearfix">
+			<div class="span12C">
+				<!--ANGULAR UI CAROUSEL-->
+				<div ng-controller="AlumniCtrl">
+				  <!--<div style="height: 350px">-->
+				    <carousel interval="myInterval">
+				      <slide ng-repeat="slide in slides" active="slide.active">
+				        <img ng-src="{{slide.image}}" style="margin:auto;">
+				        <div class="carousel-caption">
+				          <p>{{slide.text}}</p>
+				        </div>
+				      </slide>
+				    </carousel>
+				  <!--</div>-->
+				</div>
+				<!--END CAROUSEL-->
+			</div>
+		</header>
+	</div>
+</div>
+
+<div class="row">
+	<div id="welcomewrap">
+		<header class="clearfix">
+			<div class="container">
+				<div class="span12">
+					<h2>See what our alumni have to say about their success!</h2>
+				</div>
+			</div>
+		</header>
+	</div>
+		
+
+			<div id="projectwrap_2">
+				<div class="container"><br /> <br />
+				
+				<div class="row" ng-repeat="alumni in alumnis">
+					<div class="span2">
+							<img class="img-circle" ng-src="{{alumni.img}}" alt="{{alumni.name}}"/>
+					</div>
+
+					<div class="span10">
+						<h1>{{alumni.name}}</h1>
+						<h2>"{{alumni.bio}}"</h2>
+						<a ng-href="{{alumni.link}}"><h3>{{alumni.linkText}}</h3></a>
+						<h3>&nbsp;</h3>
+						<hr />
+						<h3>&nbsp;</h3>
+					</div>
+				</div><!--ROW-->
+			</div><!-- container -->
+				<!-- projectwrap2 -->
+		</div>
+		<div id="welcomewrap">
+			<header class="clearfix">
+				<div class="container">
+					<div class="span12">
+						<h2>For more information on our graduates, check out our <a href="http://techtalentsouth.tumblr.com/">blog</a>!</h2>
+					</div>
+				</div>
+			</header>
+		</div>
+
+	</div>
+</div>

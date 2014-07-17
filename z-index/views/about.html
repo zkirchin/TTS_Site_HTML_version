@@ -1,0 +1,68 @@
+<div id="aboutwrap">
+  <div class="container">
+   <!-- <h2>ABOUT US</h2>
+    <br />
+    <div class="row">
+      <div class="span7"><img alt="" src="assets/img/logo.png" />
+        <h3>Meet the founders of Tech Talent South.</h3>
+        <h4>Armed with their rich backgrounds in startup business development and product development, these two southerners met halfway across the country in (guess&hellip;what?) a code immersion program. After bonding over their love for code, startups, and most importantly the South, they decided to partner up and bring immersive tech education back home.</h4>
+      </div>-->
+      <!-- span4 -->
+      <!--<div class="span5">
+        <div class="about_item">
+          <div class="about_item_center">
+            <img alt="" src="assets/img/photo1.jpg" />
+            <div class="clear"></div>
+            <h3>Betsy Hauser Idilbi &amp; Richard Simms</h3>
+            <br />
+          </div>
+        </div>
+      </div>--><!-- about_item -->
+
+    <div class="row">
+      <h4>&nbsp;</h4>
+      <!-- STAFF SECTION -->
+
+      <h2>MEET THE TTS CREW</h2>
+      <div class="gap"></div>
+      <div class="span3" ng-repeat="staff in staffs">
+        <a href="" ng-controller="StaffModalCtrl" ng-click="open(staff)">
+          <img src="{{staff.img}}" />
+          <h4>{{staff.name}}<br />{{staff.role}}</h4>
+        </a>
+      </div>
+    </div>
+
+    <hr />
+
+
+     <!-- About Instructor Section Begins -->
+      <section id="aboutinstructor">
+      <!--<div id="aboutwrap">-->
+      <div class="container">
+        <div class="row">
+          <h2>Meet our Instructors</h2>
+          <div class="gap"></div>
+          <div class="span3" ng-repeat="instructor in instructors">
+            <!--<div class="about_item">
+              <div class="about_item_center">-->
+                <a href="" ng-controller="InstructorModalCtrl" ng-click="open(instructor)"><img alt="" src="{{instructor.image}}" /></a>
+                <div class="clear"></div>
+                  <h4>{{instructor.name}}</h4>
+                </div>
+              <!--</div>
+            </div>--><!-- about_item -->
+                <!-- span4 -->
+          </div><!-- span4 -->
+        </div>
+      </div><!-- End Row -->
+      <!--</div>-->
+      <!-- End Instructor Section -->
+      </section>
+      <div class="gap"></div>
+
+
+    </div><!-- span4 -->
+  </div><!-- span4 -->
+</div><!-- End Row -->
+<!-- End aboutwrap -->

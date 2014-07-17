@@ -1,0 +1,6 @@
+Options +Indexes
+AuthType Basic
+AuthName "techtalentsouth.com Statistics"
+AuthUserFile /var/chroot/home/content/60/11496060/html/stats/.statspwd
+Require valid-user
+DirectoryIndex index.html

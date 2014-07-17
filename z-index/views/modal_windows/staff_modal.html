@@ -1,0 +1,16 @@
+<div class="modal-header" ng-controller="StaffModalCtrl">
+ <button type="button" class="close" ng-click="cancel()">x</button>
+ <h4 class="modal-title">{{staff.name}}</h4>
+</div><!--END MODAL HEADER-->
+<div class="modal-body">                
+	<div class="text-center">
+	   	<img src="{{staff.img}}" alt="{{staff.name}}" />
+	   	<br /><br />
+	   	<h3>{{staff.name}}</h3>
+	   	<h4>{{staff.role}}</h4>
+	   	<p>{{staff.bio}}</p>
+	</div>
+          
+</div><!--END MODAL BODY-->
+<div class="modal-footer">
+</div><!--MODAL FOOTER-->

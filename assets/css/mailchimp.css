@@ -1,0 +1,54 @@
+#mc_embed_signup {
+	clear:left;
+}
+
+#mc_embed_signup h2 {
+	font-weight:normal;
+	border-left:none;
+	font-size:30px;
+}
+
+#mc_embed_signup form {
+	padding:0;
+}
+
+#mc_embed_signup .button {
+	background-color: #ec602f;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight:normal;
+}
+
+#mc_embed_signup .button:hover {
+	background-color: #FF7E51;
+}
+
+#mc_embed_signup .indicates-required, #mc_embed_signup .mc-field-group label {
+	color:#fff;
+	font-size:16px;
+}
+
+#mc_embed_signup .mc-field-group .asterisk{
+	top:40px;
+}
+
+/* TOP OF MAIN PAGE STYLING */
+.big-sign-up #mc_embed_signup{
+	width:50%;
+	margin: 0 auto;
+	text-align:center;
+}
+
+.big-sign-up #mc_embed_signup form {
+	padding:2em;
+	background-color: #fff;
+	margin-top: 2em;
+	border-radius: 10px;
+}
+
+.big-sign-up #mc_embed_signup .button, .big-sign-up #mc_embed_signup h2 {
+	text-align: center;
+}
+
+.big-sign-up #mc_embed_signup .indicates-required, .big-sign-up #mc_embed_signup .mc-field-group label {
+	color:#000;
+}

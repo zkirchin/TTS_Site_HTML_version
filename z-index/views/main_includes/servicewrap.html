@@ -1,0 +1,33 @@
+
+<!-- Section Services Begins -->
+<div id="servicewrap">
+  <div class="container">
+    <h3>Get a great foundation in web development with our part-time evening classes or dive right in and apply<br />for our in-depth full-time immersion program. &nbsp;</h3>
+    <h3>
+      <span style="font-size: 1.17em;">Applications are currently open for Atlanta, Asheville, Charlotte, and Raleigh. &nbsp;</span>
+    </h3>
+    <h3>For class dates and application deadlines in each city or to apply, click <a href="#!/locations">here</a>.</h3>
+    <p></p>
+    <!--<a href="javascript:void( window.open('http://form.jotform.us/form/31955208889166', 'blank','scrollbars=yes,toolbar=no,width=700,height=500'))">Apply Now</a><br />-->
+    <h4>Not ready to apply today but want to keep up with us?</h4>
+    <!-- Begin MailChimp Signup Form -->
+    <div class="row">
+      <div class="col-md-5 big-sign-up">
+        <div ng-include="" src="'views/main_includes/newsletter.html'"></div>
+      </div>
+    </div>
+    <hr /><!-- MULTI COLUMN -->
+    <div class="row">
+      <div class="span3" ng-repeat="mask in masks">
+        <div class="mask">
+          <img alt="" src="{{mask.image}}" />
+          <h4>{{mask.title}}</h4>
+          <p>{{mask.content}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!-- span3 -->
+<!-- container -->
+<p></p>
+<!-- servicewrap -->
