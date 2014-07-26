@@ -45,6 +45,10 @@ body {
 	height:400px !important;
 	} /* Fix for anchor link */
 
+#myCarousel-logo {
+	height:40px !important;
+	}
+
 .carousel-control{
 	left:30px;
 	background-image:none;
@@ -66,4 +70,8 @@ body {
 .collegecram {
 	background-color:#fff;
 	padding: 2em 0;
+}
+
+.partner-logo {
+	height: 60px;
 }
