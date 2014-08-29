@@ -1,0 +1,349 @@
+/* ----------------------------------------------------------------
+
+	Name: Mighty Responsive Media Queries
+	Version: 1.0
+	
+-----------------------------------------------------------------*/
+
+@import url('slicknav.css');
+
+/*-------------------------------------
+   0. RESPONSIVE MEDIA QUERIES
+-------------------------------------*/
+
+@media only screen and (min-width: 1000px) {
+
+	.slicknav_menu {
+		display: none;
+		}
+
+}
+
+
+@media only screen and (max-width: 999px) {
+
+	.slicknav_menu {
+		background: #EFEFEF;
+		display: block;
+	}
+
+	.slicknav_btn {
+		line-height: 0;
+	}
+
+	a.slicknav_btn {
+		background-color: #FFF;
+		border-bottom: none;
+	}
+
+	a.slicknav_btn:hover {
+		background-color: #000;
+		border-bottom: none;
+	}
+
+	a.slicknav_btn:hover .slicknav_menutxt {
+		color: #FFF;
+	}
+
+	.slicknav_menu .slicknav_icon {
+		margin: 0;
+	}
+
+	.slicknav_menu .slicknav_icon-bar {
+		background-color: #333;
+	}
+
+	a.slicknav_btn:hover .slicknav_icon .slicknav_icon-bar {
+		background-color: #FFF;
+	}
+
+	.slicknav_menu .slicknav_menutxt {
+		font-size: 14px;
+		line-height: 15px;
+		color: #000;
+		font-weight: 600;
+	}
+
+	.slicknav_nav li {
+		text-align: left;
+	}
+
+	.slicknav_nav a {
+		color: #000;
+		border-bottom: none;
+	}
+
+	.slicknav_nav a:hover,
+	.slicknav_nav .slicknav_item:hover {
+		border-radius: 4px;
+		background: #FFF;
+		color: #000;
+	}
+
+	.slicknav_nav .slicknav_arrow {
+		font-size: 0.8em;
+		margin: 0 0 0 0.4em;
+		color: #2aa157;
+	}
+
+	#toggle,
+	#sidebar {
+		display: none;
+	}
+
+	#header,
+	#content,
+	#footer {
+		width: 93.7%;
+	}
+
+	#header {
+		text-align: center;
+		line-height: 0;
+		padding: 50px 0 55px 0;
+	}
+
+	#header .logo {
+		float: none;
+		display: inline-block;
+	}
+
+	ul#nav {
+		display: none;
+	}
+
+	.wp-caption,
+	.wp-caption a,
+	.wp-caption a img {
+		max-width: 100% !important;
+		height: auto;
+	}
+
+	.entry-image img {
+		width: 100%;
+		height: auto;
+	}
+
+	body.page #content article .entry-header .entry-meta,
+	body.page #content article .entry-header h1.entry-title,
+	body.page #content article .entry-header h2.entry-title,
+	body.page #content article .entry-content,
+	body.page #content article .entry-excerpt {
+		padding-left: 0 !important;
+		text-align: center;
+	}
+
+	#article-nav .nav-previous,
+	#article-nav .nav-next {
+		background: none;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	#content .entry-header,
+	#content article .entry-header {
+		text-align: center;
+	}
+
+	#content article .entry-header .avatar,
+	body.author #content .avatar {
+		float: none;
+		margin: 0 0 35px 0;
+	}
+
+	#content article .entry-header .entry-meta,
+	#content article .entry-header h1.entry-title,
+	#content article .entry-header h2.entry-title,
+	#content article .entry-content,
+	body.author #content .entry-excerpt,
+	body.archive #content .entry-excerpt
+	body.page #content article .entry-excerpt {
+		padding-left: 0 !important;
+		text-align: center;
+	}
+
+	#content article .entry-header h1.entry-title,
+	#content article .entry-header h2.entry-title {
+		margin-bottom: 35px;
+	}
+
+	#content article .entry-footer {
+		text-align: center;
+		padding-left: 0;
+	}
+
+	body.page-template-template-portfolio-sortable-php #content .entry-title,
+	body.single-portfolio #content .entry-title,
+	body.page-template-template-portfolio-sortable-php #content .entry-excerpt,
+	body.single-portfolio #content .entry-excerpt,
+	body.blog #content .entry-title,
+	body.category #content .entry-title,
+	body.author #content .entry-title,
+	body.archive #content .entry-title,
+	body.search #content .entry-title,
+	body.blog #content .entry-excerpt,
+	body.category #content .entry-excerpt,
+	body.author #content .entry-excerpt,
+	body.archive #content .entry-excerpt,
+	body.search #content .entry-excerpt,
+	body.author #content .entry-excerpt {
+		text-align: center;
+	}
+
+	body.page-template-template-portfolio-sortable-php .portfolio-filter ul {
+		text-align: center;
+	}
+
+	body.page-template-template-portfolio-sortable-php .portfolio-filter ul li {
+		float: none;
+		display: inline-block;
+	}
+
+	body.page-template-template-portfolio-sortable-php .portfolio-container {
+		width: 100%;
+		text-align: center;
+	}
+
+	body.page-template-template-portfolio-sortable-php .post {
+		margin-left: auto;
+		margin-right: auto;
+		left: 0 !important;
+		right: 0 !important;
+	}
+
+	body.page-template-template-homepage-php #portfolio {
+		text-align: center;
+	}
+
+	body.page-template-template-homepage-php #portfolio article .entry-image {
+		margin-right: 0;
+		float: none;
+		margin-bottom: 25px;
+	}
+
+	#footer .copyright,
+	#footer #links {
+		width: 100%;
+		text-align: center;
+	}
+
+	#footer #links {
+		margin-bottom: 20px;
+	}
+
+	#footer #links li {
+		text-align: center;
+		float: none;
+		display: inline-block;
+	}
+
+	#content article .entry-content pre {
+		text-align: left;
+	}
+
+	.btn {
+		display: inline-block;
+	}
+
+	.alignleft,
+	.aligncenter,
+	.alignright {
+		max-width: 100%;
+		height: auto;
+	}
+
+}
+
+
+@media only screen and (max-width: 640px) {
+
+	.flex-direction-nav {
+		bottom: 60%;
+	}
+
+	#article-nav .nav-previous,
+	#article-nav .nav-next {
+		text-align: center;
+		width: 100%;
+		margin: 15px 0;
+	}
+
+	body.single-portfolio .portfolio-meta p,
+	body.single-portfolio .portfolio-meta .project-button {
+		float: none;
+		width: 100%;
+		position: static;
+	}
+
+	body.single-portfolio .portfolio-meta .project-button {
+		margin-top: 35px;
+	}
+
+	body.single-portfolio .portfolio-meta .project-button a {
+		width: 92%;
+	}
+
+	#respond .comment-form-author,
+	#respond .comment-form-email,
+	#respond .comment-form-url,
+	#respond .logged-in-as,
+	#respond .must_log_in {
+		width: 100%;
+	}
+
+	#respond .comment-form-comment,
+	#respond .form-submit {
+		position: static;
+		width: 100%;
+	}
+
+	body.page-template-template-contact-php #contact-form .contact-name,
+	body.page-template-template-contact-php #contact-form .contact-email,
+	body.page-template-template-contact-php #contact-form .contact-phone {
+		width: 100%;
+	}
+
+	body.page-template-template-contact-php #contact-form .contact-message,
+	body.page-template-template-contact-php #contact-form .contact-submit {
+		position: static;
+		width: 100%;
+	}
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+	body.page-template-template-portfolio-sortable-php .portfolio-filter ul li {
+		display: block;
+		margin-left: 0;
+		line-height: 28px;
+	}
+
+	body.page-template-template-portfolio-sortable-php .post {
+		width: 100%;
+	}
+
+	#content article .entry-header .avatar {
+		display: none;
+	}
+
+	#content article .entry-header .entry-image {
+		margin-bottom: 35px;
+	}
+
+	#content article .entry-header h1.entry-title,
+	#content article .entry-header h2.entry-title {
+		text-align: center;
+		font-size: 34px;
+		letter-spacing: 4px;
+		line-height: 48px;
+		margin-bottom: 25px;
+	}
+
+	#content article .entry-header .entry-meta {
+		text-align: center;
+		line-height: 20px;
+	}
+
+}
