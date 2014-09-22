@@ -19,9 +19,6 @@
 		<loc>http://techtalentsouth.com/faq.html</loc>
 	</url>
 	<url>
-		<loc>http://techtalentsouth.com/index.html</loc>
-	</url>
-	<url>
 		<loc>http://techtalentsouth.com/intro-to-game-development.html</loc>
 	</url>
 	<url>
@@ -32,5 +29,14 @@
 	</url>
 	<url>
 		<loc>http://techtalentsouth.com/online-marketing-bootcamp.html</loc>
+	</url>
+	<url>
+		<loc>http://techtalentsouth.com/privacy-policy.html</loc>
+	</url>
+	<url>
+		<loc>http://techtalentsouth.com/web-design-and-creation.html</loc>
+	</url>
+	<url>
+		<loc>http://techtalentsouth.com/graduate-program.html</loc>
 	</url>
 </urlset>
