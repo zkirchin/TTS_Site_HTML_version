@@ -668,3 +668,8 @@ footer {
 .orange {
 	color: #ec602f;
 }
+
+.navbar-inverse .nav li.dropdown > .dropdown-toggle .caret {
+border-top-color: #fff;
+border-bottom-color: #fff;
+}
