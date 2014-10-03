@@ -38,7 +38,7 @@ h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{margin-left:12px;font-size
 /********** BOOTSTRAP MODIFICATIONS **********/
 /* Navbar Tweaks */
 .navbar-inverse .navbar-inner {
-    background-color: #ec602f;
+    background-color: #f79027;
     background-repeat: repeat-x;
 	border-color: transparent;
 	background-image: none;
@@ -235,7 +235,7 @@ hr {
 #servicewrap h2 {
 	text-align:left;
 	margin-left:5px;
-	border-left:10px #ec602f solid;
+	border-left:10px #f79027 solid;
 	padding-left:3px;
 }
 
@@ -262,7 +262,7 @@ hr {
 #aboutwrap h2 {
 	text-align:left;
 	margin-left:5px;
-	border-left:10px #ec602f solid;
+	border-left:10px #f79027 solid;
 	padding-left:3px;
 }
 
@@ -270,7 +270,7 @@ hr {
 	font-family: 'Open Sans Condensed', sans serif;
 	font-weight:400;
 	font-size:30px;
-	color:#ec602f;
+	color:#f79027;
 }
 
 #aboutwrap h4 {
@@ -301,9 +301,9 @@ hr {
 	margin-top:150px;
 	clear: both;
 	opacity: 1;
-	background: #ec602f;
-	background: rgb(225,112,75);
-	background: rgba(225,112,75, 0.95);
+	background: #f79027;
+	background: rgb(247, 144, 39);
+	background: rgba(247, 144, 39, 0.95);
 }
 
 #projectwrap h1 {
@@ -318,7 +318,7 @@ hr {
 #projectwrap_2 h2 {
 	text-align:left;
 	margin-left:5px;
-	border-left:10px #ec602f solid;
+	border-left:10px #f79027 solid;
 	padding-left:3px;
 }
 
@@ -326,7 +326,7 @@ hr {
 	font-family: 'Open Sans Condensed', sans serif;
 	font-weight:400;
 	font-size:30px;
-	color:#ec602f;
+	color:#f79027;
 	text-align:center;
 }
 
@@ -351,7 +351,7 @@ hr {
 #footerwrap h2 {
 	text-align:left;
 	margin-left:5px;
-	border-left:10px #ec602f solid;
+	border-left:10px #f79027 solid;
 	padding-left:3px;
 	margin-bottom:40px;
 	color:#fff;
@@ -361,7 +361,7 @@ hr {
 	font-family: 'Open Sans Condensed', sans serif;
 	font-weight:400;
 	font-size:30px;
-	color:#ec602f;
+	color:#f79027;
 	text-align:center;
     margin:5px;
 }
@@ -520,7 +520,7 @@ hr {
 }
 
 .pricing-column:hover > .pricing-title {
-    border-top: 3px solid rgba(236,96,47,0.9);
+    border-top: 3px solid rgba(247, 144, 39, 0.9);
 }
 
 .pricing-column:hover > .pricing-button {
@@ -546,7 +546,7 @@ hr {
 }
 
 .pricing-column li.pricing-price {
-	color:#ec602f;
+	color:#f79027;
 	font-size: 200%;
 	line-height: 120%;
 }
@@ -629,7 +629,7 @@ footer {
 }
 
 #drop li:hover a { 
-	background: #ec602f !important; 
+	background: #f79027 !important; 
 	color: #232121 !important;
 }
 
@@ -644,7 +644,7 @@ footer {
 
 .apply-button {
 	text-align: center;
-	background-color: #ec602f;
+	background-color: #f79027;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: normal;
 	clear: both;
@@ -666,7 +666,7 @@ footer {
 }
 
 .orange {
-	color: #ec602f;
+	color: #f79027;
 }
 
 .navbar-inverse .nav li.dropdown > .dropdown-toggle .caret {
