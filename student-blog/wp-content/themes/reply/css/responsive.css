@@ -108,6 +108,10 @@
 		display: inline-block;
 	}
 
+	#header .logo a img {
+		width: 100%;
+	}
+
 	ul#nav {
 		display: none;
 	}
