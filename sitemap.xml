@@ -4,9 +4,6 @@
 		<loc>http://techtalentsouth.com/</loc>
 	</url>
 	<url>
-		<loc>http://techtalentsouth.com//</loc>
-	</url>
-	<url>
 		<loc>http://techtalentsouth.com/about.html</loc>
 	</url>
 	<url>
@@ -39,4 +36,14 @@
 	<url>
 		<loc>http://techtalentsouth.com/graduate-program.html</loc>
 	</url>
+	<url>
+		<loc>http://techtalentsouth.com/student-blog/</loc>
+	</url>
+	<url>
+		<loc>http://techtalentsouth.com/programming-for-business-people.html</loc>
+	</url>
+	<url>
+		<loc>http://techtalentsouth.com/sharepoint-101.html</loc>
+	</url>
+
 </urlset>
