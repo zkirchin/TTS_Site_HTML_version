@@ -1,3 +1,7 @@
+redirect /online-marketing-bootcamp.html http://techtalentsouth.com/grow-your-brand.html
+
+
+
 # Apache Configuration File
 
 # (!) Using `.htaccess` files slows down Apache, therefore, if you have access
