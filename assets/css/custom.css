@@ -92,3 +92,12 @@ body {
 .about-text-box p {
 	padding: 5px;
 }
+
+.two_column {
+        -moz-column-count: 2;
+        -moz-column-gap: 2.5em;
+        -webkit-column-count: 2;
+        -webkit-column-gap: 2.5em;
+        column-count: 2;
+        column-gap: 2.5em;
+      }
